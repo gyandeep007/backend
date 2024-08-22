@@ -2,7 +2,7 @@ pipeline {
 	agent any
 
 	environment {
-		mavenHome = tool 'MAVEN3'
+		mavenHome = tool 'LocalMaven'
 	}
 
 	tools {
